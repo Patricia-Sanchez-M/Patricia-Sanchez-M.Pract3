@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Heliopic_Hotel</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="hotel.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body onload="traducir()">
+    <h1>Reserve su habitación</h1>
+    <br>
+    <p>Las habitaciones del <a href="index.html">hotel Heliopic</a> son amplias, cómodas y cuentan con todos los servicios que necesite para 
+       disfrutar de una estancia inolvidable. Disfrute de una noche reparadora en una cama king size, y despierte con 
+       vistas impresionantes de las montañas. <br>El hotel también cuenta con un bar y restaurante para que pueda disfrutar 
+       de deliciosas comidas y bebidas en un ambiente elegante y acogedor.</p>
+    <br><br>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <h2>Ático</h2>
+          <img class="d-block img-fluid" src="Heliopic-Hotel-Spa-Chambre-mansardée-1.jpg">
+        </div>
+        <div class="col-6">
+          <h2>Doble</h2>
+          <img class="d-block img-fluid" src="HOTEL-HELIOPIC-Chambre-superieure-BD.jpg">
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-6">
+          <h2>Familiar</h2>
+          <img class="d-block img-fluid" src="AJ3B1574-1280x853.jpg">
+        </div>
+        <div class="col-6">
+          <h2>Suite</h2>
+          <img class="d-block img-fluid" src="heliopic-chambre-superieure-balcon-soleil-1.jpg">
+        </div>
+      </div>
+      <main>
+        <form action="URL absoluta o relativa" method="get o post" class="container">
+          <fieldset>
+            <div class="row">
+              <div class="col-6">
+                <label for="name_id">Nombre</label><br>
+                <input id="name_id" type="text" name="nombre" placeholder="Nombre" required>
+              </div>
+              <div class="col-6">
+                <label for="surname_id">Apellidos</label><br>
+                <input id="surname_id" type="text" name="apellidos" placeholder="Apellidos" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <label for="fecha_e_id">Fecha de entrada</label><br>
+                <input id="fecha_e_id" type="date" name="entrada" required>
+              </div>
+              <div class="col-6">
+                <label for="fecha_s_id">Fecha de salida</label><br>
+                <input id="fecha_s_id" type="date" name="salida" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <label for="email_id">Correo electrónico</label><br>
+                <input id="email" type="email" name="email" placeholder="Correo electrónico" required>
+              </div>
+              <div class="col-6">
+                <label for="telefono_id">Teléfono</label><br>
+                <input id="telefono_id" type="tel" name="telefono" placeholder="Teléfono" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <label for="habitacion_id">¿Qué tipo de habitación prefiere?</label><br>
+                <select id="habitacon_id" name="habitacion" required>
+                  <option value="individual" selected>Ático</option>
+                  <option value="doble">Doble</option>
+                  <option value="familiar">Familiar</option>
+                  <option value="suite">Suite</option>
+                </select>
+              </div>
+              <div class="col-6">
+                <label>¿Desea incluir desayuno?</label><br>
+                <input id="desayuno_si" type="radio" name="desayuno" value="si" required> 
+                <label for="desayuno_si">Sí</label>
+                <input id="desayuno_no" type="radio" name="desayuno" value="no" required>
+                <label for="desayuno_no">No</label>
+              </div>
+              <div class="row">
+                <div class="col-6">
+                  <label>¿Desea incluir cena?</label><br>
+                  <input type="radio" name="cena" value="si" required>
+                  <label for="cena_si">Sí</label>
+                  <input type="radio" name="cena" value="no" required>
+                  <label for="cena_no">No</label>
+                </div>
+                <div class="col-6">
+                  <label>¿Desea incluir parking?</label><br>
+                  <input type="radio" name="parking" value="si" required>
+                  <label for="parking_si">Sí</label>
+                  <input type="radio" name="parking" value="no" required>
+                  <label for="parking_no">No</label>
+                </div>
+            </div>
+          </fieldset>
+          <fieldset>
+            <input type="submit" value="Enviar"> 
+            <input type="reset" value="Reestablecer">
+           </fieldset>   
+          </form>
+        </main> 
+        <script src="script.js"></script> 
+        </body>
+
+      </html>
+      

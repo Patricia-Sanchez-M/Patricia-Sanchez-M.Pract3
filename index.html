@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <script src="./index.js"></script> 
+        <title>Heliopic_Inicio</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="spa.css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+          video {
+            object-fit: fill;
+            width: 100%;
+          }
+        </style>
+    </head>
+<body>
+    <header class="cabecera">
+    <!-- Menú de navegación por la web --> 
+      <nav>
+        <ul class="menu">
+         <li><a href=# data-translate="nav-home"></a></li>
+         <li><a href="hotel.html" data-translate="nav-hotel"></a></li>
+         <li><a href="#" data-translate="nav-nuxe"></a></li>
+         <li><a href="chamonix.html" data-translate="nav-chamonix"></a></li>
+        </ul>
+      </nav>
+      <h1>HELIOPIC</h1>
+      <h2>Hotel & Spa</h2>
+      <video loop="loop" autoplay playsinline muted>
+        <source type="video/mp4" src="https://www.heliopic-hotel-spa.com/wp-content/uploads/2022/03/V3-MONTAGE-HELIOPIC-2022-MUET-reduit2.0.00-79.88.compressed-2.mp4" />
+      </video>
+      <article data-translate="header-description"></article>
+    </header>
+
+    <!--main--> <!-- Contenido principal de la página actual-->
+        <!--h2>Título del artículo</h2-->
+        <section class="secciones">
+          <h3 data-translate="header-3"></h3>
+          <p data-translate="body-description"></p>
+          <a style="text-align: center;" class="boton_galeria" href="galeria.html" data-translate="gallery">Galería</a>
+        </section>
+        <aside class="contenido">
+          <!--h3>Contenido relacionado indirectamente: citas, tabla de contenidos, etc.</h3-->
+          <figure>
+            <img class="img" src="HOTEL-HELIOPIC.jpg">
+          </figure>
+        </aside>
+      </article>
+    <!--/main-->
+    <footer class="pie">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <br>
+            <p>610, route Blanche</p>
+            <p>74400 Chamonix-Mont-Blanc</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2775.685673652442!2d6.867893865422775!3d45.91759392910898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47894f454beec89b%3A0x832f23afd1c3c17!2sHeliopic%20Hotel%20%26%20Spa!5e0!3m2!1sen!2ses!4v1676751154394!5m2!1sen!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="col" style="background-color: black; margin-left: 15rem; margin-right: 15rem;" >
+            <img src = "logo-heliopic.png" class = "Logo-Heliopic">
+            <!--p style="color: antiquewhite; margin-top: 150px;">Aquí va el logo</p-->
+            <button class="btn btn-primary" value="es.home.json" onclick="cambiarIdioma('es')">Español</button>
+            <button class="btn btn-primary" value="en.home.json" onclick="cambiarIdioma('en')">English</button>
+          </div>
+          <div class="col">
+            <br><br>
+            <p style="font-weight: bold;" data-translate="contact">Contacto</p>
+            <p data-translate="tlf"></p><p>+123 456 789</p>
+            <p>Email: heliopic@hotel.com</p>
+            <p data-translate="cp"></p><br><a href="https://www.heliopic-hotel-spa.com/en/?trkid=V3ADW283891_23500014793_kwd-191300878081__147149196854_g_c__&atrkid=V3ADW1075173D_23500014793_kwd-191300878081__147149196854_g_c___&gclid=Cj0KCQiAi8KfBhCuARIsADp-A55FZ9RAEx8Koi7Ih4Si2_TXTAe07A1SnpSfVDkka7SfhRWKYOFjaW4aApfIEALw_wcB" target="_blank" data-translate="real-page"></a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="row"></div>
+</body>

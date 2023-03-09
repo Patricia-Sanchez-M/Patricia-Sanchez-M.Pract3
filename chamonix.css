@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body {
+    font-size: 1.5rem;
+    background-color: rgb(238, 211, 164)!important;
+  }
+h1 {
+    font-family: "Montserrat", "Lato", "Helvetica", "Arial"!important;
+    font-size: 5em;
+    margin: 0;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    color: black;
+    text-align: center;
+  }
+h2 {
+    font-family: 'Lobster', sans-serif;
+    font-size: 16px;
+  }
+  .col-6 img {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+.col-6 {
+    padding: 0;
+    max-width: 100%;
+    margin: 0;
+    text-align: center;
+}
+article {
+    font-family: "Futura BT Medium", "Futura BT", "Futura", "Trebuchet MS", "Arial";
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style:disc;
+    margin-left: 20px;
+  }
+  
+  li {
+    font-family: "Futura BT Medium", "Futura BT", "Futura", "Trebuchet MS", "Arial";
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    text-align: left!important;
+  }
+  h3 {
+    font-size: 1.5em!important;
+    font-family: "Futura BT Medium", "Futura BT", "Futura", "Trebuchet MS", "Arial";
+    border: 10px solid rgba(57, 177, 241, 0.633);
+    background-color: rgba(57, 177, 241, 0.633);
+    padding: 50px;
+    margin: 100px;
+    color: black;
+    text-align: center!important;
+    text-align: justify;
+  }
+  
+  
